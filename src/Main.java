@@ -7,7 +7,7 @@ public class Main {
 
         int choice;
         do {
-            System.out.println("------- Manu Bar ------");
+            System.out.println("Menu");
             System.out.println("1. Thêm sinh viên");
             System.out.println("2. Hiển thị tất cả sinh viên");
             System.out.println("3. Sửa thông tin Sinh viên bằng id");
@@ -15,7 +15,7 @@ public class Main {
             System.out.println("5. Tìm sinh viên qua id");
             System.out.println("6. Tìm sinh viên có điểm trung bình cao nhât");
             System.out.println("0. Exit");
-            System.out.print("Enter you choice: ");
+            System.out.println("Nhập lựa chọn của bạn: ");
             choice = scanner.nextInt();
             switch (choice) {
                 case 1: ;
